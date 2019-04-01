@@ -11,12 +11,10 @@
         Black:               #000   
 ============================================ */
 
-
-
-
 /* =========================================
                 Html, Body
 ============================================ */
+
 html,
 body {
     height: 100%;
@@ -46,11 +44,6 @@ section {
     background: #fff;
     overflow: hidden;
 }
-
-
-
-
-
 
 /* =========================================
                 Preloader
@@ -87,7 +80,7 @@ section {
     height: 100%;
 }
 
-#home-bg-video{
+#home-bg-video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -102,14 +95,14 @@ section {
     background-size: cover;
 }
 
-#home-overlay{
-    background-color: rgb(0,0,0,0.8);
+#home-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0; 
-    z-index: -1;    
+    left: 0;
+    z-index: -1;
 }
 
 #home-content {
@@ -127,6 +120,7 @@ section {
     color: #fff;
     font-size: 65px;
     font-weight: 100;
+    text-transform: uppercase;
     margin: 0;
     display: inline-block;
 }
@@ -143,32 +137,45 @@ section {
     margin: 8px 0 30px 0;
 }
 
-
 /* =========================================
                 Buttons
 ============================================ */
+
 .btn-general {
-    font-family: 'Raleway' , sans-serif;
+    font-family: 'Raleway', sans-serif;
     border-radius: 28px;
     font-size: 13px;
     text-transform: uppercase;
     margin: 0 6px;
     padding: 12px 46px 12px 46px;
-    -webkit-transition: all 5s;    
-    transition: all .5s;     
+    -webkit-transition: all .5s;
+    transition: all .5s;
 }
 
 .btn-home {
     color: #fff;
-    border: 1px solid #fff;    
+    border: 1px solid #fff;
 }
 
 .btn-home:hover,
 .btn-home:focus {
     color: #fff;
     background-color: #f4c613;
-    border: 1px solid #fff;        
-}    
+    border: 1px solid #f4c613;
+}
+
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+}
 
 #arrow-down {
     position: absolute;
@@ -186,4 +193,94 @@ section {
 #arrow-down:hover,
 #arrow-down:focus {
     color: #f4c613;
+}
+
+/* =========================================
+                Content Box
+============================================ */
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+}
+
+/* =========================================
+                Vertical Headings
+============================================ */
+
+.vertical-heading h5 {
+    color: #f4c613;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    top: 60px;
+    left: -63px;
+}
+
+.vertical-heading h2 {
+    margin: 0 0 0 35px;
+    font-size: 45px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+/* =========================================
+                About 01
+============================================ */
+
+#about-right p:first-child {
+    margin-bottom: 30px;
+}
+
+#about-bottom {
+    margin-top: 60px;
+}
+
+#about-bottom img {
+    margin: 0 auto;
+}
+
+/* =========================================
+                About 02
+============================================ */
+
+#about-02 {
+    background: #f4f4f4
+}
+
+.about-item {
+    background-color: #fff;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+}
+
+.about-item i {
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 45px;
+    height: 3px;
+    background-color: #f4c613;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    margin-top: 20px;
 }

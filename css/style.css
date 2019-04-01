@@ -150,6 +150,8 @@ section {
     padding: 12px 46px 12px 46px;
     -webkit-transition: all .5s;
     transition: all .5s;
+    -webkit-transition: all 5s;
+    transition: all .6s;
 }
 
 .btn-home {
@@ -283,4 +285,33 @@ section {
 
 .about-item p {
     margin-top: 20px;
+}
+
+/* Hover State */
+
+.about-item:hover {
+    background-color: #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #fff;
+}
+
+.about-item:hover i {
+    transform: translateY(-20px);
+}
+
+/* Smooth Transition */
+
+.about-item,
+.about-item i,
+.about-item hr {
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }

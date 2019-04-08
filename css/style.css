@@ -1,4 +1,3 @@
-
 /* =========================================
     Default Theme
     ----------------------------------------
@@ -415,4 +414,51 @@ ul.social-list li:nth-child(3) a:hover {
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
     color: #212226;
+}
+
+/* =========================================
+                Skills
+============================================ */
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h4 {
+    line-height: 62px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.progress {
+    height: 25px;
+    border-radius: 0;
+    background: #efefef;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #f4c613;
+    position: relative;
+}
+
+.progress-bar span {
+    font-size: 11px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    background: #212226;
+    padding: 3px;
+    position: absolute;
+    left: 97%;
+    top: -47px;
+}
+
+.progress-bar span:before {
+    content: "";
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 23%;
 }

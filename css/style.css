@@ -463,3 +463,37 @@ ul.social-list li:nth-child(3) a:hover {
     bottom: -8px;
     left: 23%;
 }
+
+
+
+
+
+
+/* =========================================
+                Slider Buttons
+============================================ */
+
+#statement {
+    background: url(../img/tech/tech-statement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, .3)
+}
+
+#tech-statement h3 {
+    color: #fff;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+#tech-statement p {
+    font-size: 18px;
+    color: #f4c613;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
+}

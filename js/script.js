@@ -53,3 +53,4 @@ $(function () {
         animation: 'slide'
     });
 });
+

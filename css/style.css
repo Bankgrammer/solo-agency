@@ -166,6 +166,20 @@ section {
     border: 1px solid #f4c613;
 }
 
+.btn-yellow {
+    color: #fff;
+    background-color: #f4c613;
+    border: 1px solid #f4c613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+
 #arrow-down {
     position: absolute;
     left: 50%;
@@ -596,4 +610,36 @@ ul.social-list li:nth-child(3) a:hover {
     padding-bottom: 5px;
     -webkit-transition: border-color 300ms linear;
     transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+}
+
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 59px 30px;
+    min-height: 481px;
+}
+
+.service-tab h2 {
+    font-size: 48px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.service-tab h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-tab p {
+    line-height: 24px;
+    margin-bottom: 30px;
 }
